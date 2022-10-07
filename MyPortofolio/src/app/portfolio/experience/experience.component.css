@@ -1,0 +1,46 @@
+
+.exp-heading{
+  color: #fff;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 100%;
+  background-color: #141516;
+  padding: 10px;
+  display: flex;
+}
+.exp-box-container{
+  box-shadow: 0 4px 8px 0 rgba(244, 240, 240, 0.2);
+width: 90%;
+margin: 20px auto;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: auto auto;
+}
+.exp-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 20px 20px 20px;
+}
+
+.exp-box i{
+font-size: 2.5rem;
+background: linear-gradient(90deg,#2788e2 20%,#3b67b8);
+margin-bottom: 10px;
+margin-right: auto;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.exp-box p{
+  color: #8a94a783;
+  font-size: 0.95rem;
+
+}
+.exp-box strong{
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #e4e4e4;;
+}
