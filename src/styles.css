@@ -21,23 +21,6 @@
   margin: 0px;
    padding: 0px;
 }
-h1,h2,h3,h4,h5,h6{
-  font-weight: 700;
-  color: white;
-  line-height: 1.2;
-  margin-bottom: 10px;
-}
-h1{font-size: 44px;}
-p{
-  margin-bottom: 16px;
-}
-section{
-  padding: 90px 0;;
-}
-.container{
-  width: 100%;
-  max-width: 1140px;
-  margin: 0 auto;
-  padding-left: 24px;
-  padding-right: 24px;
-}
+
+
+html{scroll-behavior: smooth;}

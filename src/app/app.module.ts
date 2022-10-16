@@ -21,7 +21,8 @@ import { FormationComponent } from './portfolio/formation/formation.component';
   // les moudules
   imports: [
     BrowserModule,
-    AppRoutingModule,PortfolioModule
+    AppRoutingModule,
+    PortfolioModule
   ],
   providers: [],
   bootstrap: [AppComponent]

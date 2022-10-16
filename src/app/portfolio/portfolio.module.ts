@@ -12,6 +12,8 @@ import { FormsModule } from '@angular/forms';
 // à connaitre
 import { NgxPaginationModule } from 'ngx-pagination';
 import { ServicesComponent } from './services/services.component';
+import { PortfolioRoutingModule } from './portfolio-routing.module';
+import { IntroComponent } from './intro/intro.component';
 
 
 
@@ -26,13 +28,15 @@ import { ServicesComponent } from './services/services.component';
     FormationComponent,
     CompetencesComponent,
     ServicesComponent,
+    IntroComponent,
 
 
   ],
   imports: [
     CommonModule,
     FormsModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    PortfolioRoutingModule
   ],
 
 })
