@@ -1,67 +1,96 @@
-ul{
-  list-style: none;
-}
-
-a{
-  text-decoration: none;
-}
-.navigation{
+.navbar{
   position: fixed;
-  left: 0px;
-  top: 0px;
   width: 100%;
-
+  z-index: 999;
+  padding: 30px 0;
+  font-family: 'Ubuntu', sans-serif;
+  transition: all 0.3s ease;
+}
+.navbar.sticky{
+  padding: 15px 0;
+  background: crimson;
+}
+.navbar .max-width{
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: center;
-  padding: 15px 50px;
-  z-index: 4;
-  background-image: linear-gradient(180deg,rgb(17,17,17) 15% , transparent);
-
+}
+.navbar .logo a{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.navbar .logo a span{
+  color: crimson;
+  transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span{
+  color: #fff;
+}
+.navbar .menu li{
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a{
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+  color: crimson;
+}
+.navbar.sticky .menu li a:hover{
+  color: #fff;
+}
+/* menu btn styling */
+.menu-btn{
+  color: #fff;
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
 }
 
-.menu{
-  display: flex
-  ;
-  justify-content: center;
-  align-items: center;
-  margin: 0px;
+/*** -------------Responsive -------------------***/
 
-}
-
-.menu li{
-  padding: 20px;
-}
-
-/* à modifier*/
-.logo{
-  height: 33px;
-}
-
-.logo img{
-  height: 100%;
-  object-fit: contain;
-  object-position: center;
-
-}
-/*---------------------*/
-.menu li a{
-color: #ffffffcc;
-}
-
-.hire-me{
-  color: #46a0f5;
-}
-
-.hire-me i{
-  margin-left: 4px;
-}
-.menu li a:hover{
-color: #46a0f5;
-transition: all ease 0.5s;
-}
-
-.hire-me:hover{
-  color: #1a82e2;
-  transition: all ease 0.5s;
+@media (max-width: 947px){
+  /* on a fiche bouton*/
+  .menu-btn{
+      display: block;
+      z-index: 999;
   }
+  .menu-btn i.active:before{
+      content: "\f00d";
+  }
+  .navbar .menu{
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      left: -100%;
+      top: 0;
+      background: #111;
+      text-align: center;
+      padding-top: 80px;
+      transition: all 0.3s ease;
+  }
+  /* active dans le fichier js*/
+  .navbar .menu.active{
+      left: 0;
+  }
+  .navbar .menu li{
+      display: block;
+  }
+  .navbar .menu li a{
+      display: inline-block;
+      margin: 20px 0;
+      font-size: 25px;
+  }
+
+  .max-width{
+      max-width: 930px;
+  }
+
+
+}

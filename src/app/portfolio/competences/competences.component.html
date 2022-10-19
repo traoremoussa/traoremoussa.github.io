@@ -1,13 +1,13 @@
-<section id="skills">
-  <!-- text-section-->
-  <div class="skills-text-section">
-    <!-- heading-->
-    <div class="skill-heading">
-      <span>Competences techniques</span>
+<section class="skills" id="skills">
+  <div class="max-width">
+    <h2 class="title">My skills</h2>
+    <div class="skills-content">
+      <div class="column left">
+        <div class="text">My creative skills & experiences.</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
+        <a href="#">Read more</a>
     </div>
-
-    <div class="s-box-container">
-
+    <div class="column right">
       <div class="skill-box" *ngFor="let skill of skills">
         <!--box icon-->
         <div class="s-box-icon">
@@ -22,8 +22,9 @@
           <div class="progress-line html" ><span [attr.data-open]="skill.progress" [style.width]="skill.progress" ></span></div>
         </div>
       </div>
-
+    </div>
     </div>
 
   </div>
+
 </section>
