@@ -45,6 +45,8 @@ export const experiencesFr = [
       missions: [
           "Application TheSnowBook apprentissage numérique du snowboard.",
           "Intégration des nouvelles fonctionnalités",
+          "Tests Unitaires, Tests d’intégrations",
+          "Utilisation méthode agile SCRUM"
       ],
       detailIsDisplayed: false,
   },
@@ -54,19 +56,22 @@ export const experiencesFr = [
     period: "Mars 2017 - Mai 2017",
     technologies: 'PHP, Symfony, JavaScript, GiTlab, Git, MySQL, Html5, CSS3.',
     missions: [
-        "Application TheSnowBook apprentissage numérique du snowboard.",
+        "Application checkyoursmile apprentissage des langues.",
         "Intégration des nouvelles fonctionnalités",
+        "Developpement du FlashCard"
     ],
     detailIsDisplayed: false,
 },
 {
-  title: "Développeur Mobile",
-  company: 'IRT de Paul sabatier',
-  period: "Jan 2019 - Mai 2019",
-  technologies: 'Java, PHP, Android-studio, MySQL, Github, Git, CodeIgniter.',
+  title: "Développeur Web/Mobile",
+  company: 'Université Guelma (Algerie)',
+  period: "Jan 2016 - Mai 2016",
+  technologies: 'Java, PHP, Android-studio, MySQL, Github, Git',
   missions: [
-      "Application TheSnowBook apprentissage numérique du snowboard.",
-      "Intégration des nouvelles fonctionnalités",
+      "Mise en place d'une application de commande taxi",
+      "conception et le developpement de l'application web",
+      "conception et le developpement pour l'admin",
+      "conception et le developpement pour le mobile"
   ],
   detailIsDisplayed: false,
 },

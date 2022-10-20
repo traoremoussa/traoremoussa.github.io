@@ -9,7 +9,7 @@
     <div class="box" *ngFor="let experience of experiences;">
      <i class="fas fa-certificate"></i>
         <span>{{experience.period}}</span>
-        <h3>{{experience.title}}</h3>
+        <h3>{{experience.title}} - {{experience.company}}</h3>
         <details>
           <summary>Details</summary>
           <p *ngFor="let mission of experience.missions; let index = index">- {{mission}}</p>
