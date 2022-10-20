@@ -57,4 +57,4 @@ git push -u origin main
 
 
 /-----------
-npm install @fortawesome/angular-fontawesome
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details

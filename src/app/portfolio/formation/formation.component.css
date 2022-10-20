@@ -25,8 +25,8 @@
       flex-wrap: wrap;
 
 
-      margin-left: 10rem;
-      margin-right: 10rem;
+      margin-left: 12rem;
+      margin-right: 12rem;
 
 
 }
@@ -40,8 +40,8 @@
 
   padding-top: 0;
   padding-bottom: 0;
-  padding-left: 3.5rem;
-  padding-bottom: 3rem;
+  padding-left: 2.05rem;
+  padding-bottom: 2rem;
   border-left: 0.1rem solid #aaa;
   position: relative;
 }
@@ -77,8 +77,30 @@
 }
 
 .education .box-container .box p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #aaa;
   line-height: 2;
 
+}
+
+
+details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: .5em .5em 0;
+}
+
+summary {
+  font-weight: bold;
+  margin: -.5em -.5em 0;
+  padding: .5em;
+}
+
+details[open] {
+  padding: .5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: .5em;
 }
