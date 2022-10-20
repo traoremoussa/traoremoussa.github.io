@@ -9,6 +9,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PortfolioComponent } from './portfolio.component';
 import { FormsModule } from '@angular/forms';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 // à connaitre
 import { NgxPaginationModule } from 'ngx-pagination';
 import { ServicesComponent } from './services/services.component';
@@ -36,7 +37,8 @@ import { IntroComponent } from './intro/intro.component';
     CommonModule,
     FormsModule,
     NgxPaginationModule,
-    PortfolioRoutingModule
+    PortfolioRoutingModule,
+    FontAwesomeModule
   ],
 
 })
