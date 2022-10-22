@@ -106,3 +106,13 @@
   }
 
 }
+@media (max-width: 768px) {
+
+  .home .image img {
+    height: 10rem;
+    width: 10rem;
+  }
+
+
+
+}

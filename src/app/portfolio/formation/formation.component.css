@@ -104,3 +104,22 @@ details[open] summary {
   border-bottom: 1px solid #aaa;
   margin-bottom: .5em;
 }
+
+
+@media (max-width: 768px) {
+
+
+}
+@media (max-width: 500px) {
+  .education .box-container {
+    margin: auto;
+  }
+  .education .box-container .box h3 {
+    font-size: 0.8rem;
+    padding: 1rem 0;
+    color: #fff;
+    padding-top: 1rem;
+    font-weight: normal;
+  }
+
+}
