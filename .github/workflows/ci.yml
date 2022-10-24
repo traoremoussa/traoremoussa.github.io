@@ -27,8 +27,8 @@ jobs:
 
     - name: Deploy
       if: success()
-      uses: helaili/jekyll-action@2.0.5
+      uses: tsunematsu21/actions-publish-gh-pages@v1.0.2
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: /docs
-        enable_jekyll: true
+        dir: docs
+        branch: gh-pages
+        token: ${{ secrets.ACCESS_TOKEN }}
