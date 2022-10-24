@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { experiencesFr } from 'src/app/api/experiencesFr';
-import * as awesom from '@fortawesome/free-solid-svg-icons';
+
 @Component({
   selector: 'app-experience',
   templateUrl: './experience.component.html',
@@ -19,9 +19,7 @@ export class ExperienceComponent implements OnInit {
 
   ngOnInit(): void {
     this.experiences=experiencesFr;
-    this.planeIcon=awesom.faPlane;
-    this.gameIcon=awesom.faGamepad;
-    this.volleyBallIcon=awesom.faVolleyballBall;
+
   }
 
   detailOnClick(experience:any) {
