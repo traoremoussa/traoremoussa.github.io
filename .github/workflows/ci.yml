@@ -29,7 +29,7 @@ jobs:
       if: success()
       uses: tsunematsu21/actions-publish-gh-pages@v1.0.2
       with:
-
+        dir: docs/
         branch: master
         token: ${{ secrets.ACCESS_TOKEN }}
 
