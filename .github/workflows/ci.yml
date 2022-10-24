@@ -27,7 +27,7 @@ jobs:
 
     - name: Deploy
       if: success()
-      uses: actions/labeler@v4
+      uses: helaili/jekyll-action@2.0.5
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: /docs
