@@ -31,21 +31,21 @@
                   </div>
               </div>
               <div class="column right">
-                  <div class="text">Message me</div>
-                  <form action="#">
+                  <div class="text">Message me </div>
+                  <form  (submit)="envoyerMessage()">
                       <div class="fields">
                           <div class="field name">
-                              <input type="text" placeholder="Name" required>
+                              <input type="text" placeholder="Name" required name="name" [(ngModel)]="name">
                           </div>
                           <div class="field email">
-                              <input type="email" placeholder="Email" required>
+                              <input type="email" placeholder="Email" required name="email"[(ngModel)]="email">
                           </div>
                       </div>
                       <div class="field">
-                          <input type="text" placeholder="Subject" required>
+                          <input type="text" placeholder="Subject" required name="sujet"[(ngModel)]="sujet">
                       </div>
                       <div class="field textarea">
-                          <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                          <textarea cols="30" rows="10" placeholder="Message.." required name="message"[(ngModel)]="message"></textarea>
                       </div>
                       <div class="button-area">
                           <button type="submit">Send message</button>

@@ -8,13 +8,14 @@ import { HeaderComponent } from './header/header.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PortfolioComponent } from './portfolio.component';
-import { FormsModule } from '@angular/forms';
+
 
 // à connaitre
 import { NgxPaginationModule } from 'ngx-pagination';
 import { ServicesComponent } from './services/services.component';
 import { PortfolioRoutingModule } from './portfolio-routing.module';
 import { IntroComponent } from './intro/intro.component';
+import { FormsModule } from '@angular/forms';
 
 
 
