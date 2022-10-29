@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-contact',
@@ -12,12 +13,16 @@ export class ContactComponent implements OnInit {
   email!:string;
   sujet!:String;
   message!:string;
-  constructor() { }
+  constructor(private toastr: ToastrService) {}
 
   ngOnInit(): void {
   }
 
   public envoyerMessage():void{
+   this. showSuccess() ;
 console.log(this.name);
+  }
+  showSuccess() {
+    this.toastr.success('Contacter Traore', 'Came Soon!');
   }
 }

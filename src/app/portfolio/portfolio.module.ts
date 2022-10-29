@@ -16,7 +16,9 @@ import { ServicesComponent } from './services/services.component';
 import { PortfolioRoutingModule } from './portfolio-routing.module';
 import { IntroComponent } from './intro/intro.component';
 import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { ToastrModule } from 'ngx-toastr';
 
 
 @NgModule({
@@ -39,6 +41,8 @@ import { FormsModule } from '@angular/forms';
     FormsModule,
     NgxPaginationModule,
     PortfolioRoutingModule,
+    BrowserAnimationsModule, // required animations module
+    ToastrModule.forRoot(), // ToastrModule added
 
   ],
 
