@@ -18,10 +18,9 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: 16
-    - name: clean dependencies
-      run: npm cache clean --force
+
     - name: Install dependencies
-      run: npm update
+      run: npm ci
 
     - name: Build
       run: npm run build
