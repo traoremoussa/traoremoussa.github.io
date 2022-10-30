@@ -19,7 +19,7 @@ jobs:
       with:
         node-version: 16
     - name: clean dependencies
-      run: cache clean --force
+      run: npm cache clean --force
     - name: Install dependencies
       run: npm update
 
