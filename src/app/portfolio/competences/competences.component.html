@@ -3,9 +3,21 @@
     <h2 class="title">My skills</h2>
     <div class="skills-content">
       <div class="column left">
-        <div class="text">My creative skills & experiences.</div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
-        <a href="#">Read more</a>
+        <div class="text"><i class="fa fa-cogs" style="font-size:30px"></i>Framworks & Outils.</div>
+        <ul class="fa-ul" style="--fa-li-width: 2em;">
+          <li><span class="fa-li"><i class="fa fa-check-square-o" style="font-size:24px"></i></span>Spring Boot</li>
+          <li><span class="fa-li"><i class="fa fa-check-square-o" style="font-size:24px"></i></span>Angular</li>
+          <li><span class="fa-li"><i class="fa fa-check-square-o" style="font-size:24px"></i></span>Vuejs</li>
+
+        </ul>
+        <ul class="fa-ul" style="--fa-li-width: 2em;">
+          <li><span class="fa-li"><i class="fa fa-check-square-o" style="font-size:24px"></i></span>Git + Github/Gitlab</li>
+          <li><span class="fa-li"><i class="fa fa-check-square-o" style="font-size:24px"></i></span>Docker/Jenkins/GitlabCi</li>
+          <li><span class="fa-li"><i class="fa fa-check-square-o" style="font-size:24px"></i></span>Eclipse/IntelliJ/VsCode</li>
+
+        </ul>
+
+        <a [href]="rsx.linkedin" target="_blank">Read more</a>
     </div>
     <div class="column right">
       <div class="skill-box" *ngFor="let skill of skills">

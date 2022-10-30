@@ -31,24 +31,27 @@
                   </div>
               </div>
               <div class="column right">
+                <small id="emailHelp" class="form-text text-muted" style="color: red;" *ngIf="geterrors"
+                >{{geterrors()}}</small
+              >
                   <div class="text">Message me </div>
-                  <form  (submit)="envoyerMessage()">
+                  <form [formGroup]="mainForm" (submit)="envoyerMessage()">
                       <div class="fields">
                           <div class="field name">
-                              <input type="text" placeholder="Name" required name="name" [(ngModel)]="name">
+                              <input type="text" placeholder="Name"  formControlName="name">
                           </div>
                           <div class="field email">
-                              <input type="email" placeholder="Email" required name="email"[(ngModel)]="email">
+                              <input type="email" placeholder="Email"  formControlName="email">
                           </div>
                       </div>
                       <div class="field">
-                          <input type="text" placeholder="Subject" required name="sujet"[(ngModel)]="sujet">
+                          <input type="text" placeholder="Subject"  formControlName="sujet">
                       </div>
                       <div class="field textarea">
-                          <textarea cols="30" rows="10" placeholder="Message.." required name="message"[(ngModel)]="message"></textarea>
+                          <textarea cols="30" rows="10" placeholder="Message.." formControlName="message"></textarea>
                       </div>
-                      <div class="button-area">
-                          <button type="submit">Send message</button>
+                      <div class="button-area" >
+                          <button type="submit" [disabled]="!mainForm.valid">Send message</button>
                       </div>
                   </form>
               </div>

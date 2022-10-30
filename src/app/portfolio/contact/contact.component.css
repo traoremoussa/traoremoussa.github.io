@@ -76,6 +76,7 @@ align-items: center;
 }
 
 .right form .button-area button{
+
   color: #fff;
   display: block;
   width: 160px!important;
@@ -89,8 +90,12 @@ align-items: center;
   background: crimson;
   border: 2px solid crimson;
   transition: all 0.3s ease;
+
 }
-.right form .button-area button:hover{
+.right form .button-area button[disabled]{
+  opacity: 0.6;
+}
+.right form .button-area button:hover:not([disabled]){
   color: crimson;
   background: none;
 }

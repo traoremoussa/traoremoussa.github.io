@@ -23,6 +23,7 @@ import { ToastrModule } from 'ngx-toastr';
 
 import { HttpClientModule } from '@angular/common/http';
 import { ContactService } from './shared/contact/contact.service';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { ContactService } from './shared/contact/contact.service';
   imports: [
     CommonModule,
     FormsModule,
+    ReactiveFormsModule,
     NgxPaginationModule,
     PortfolioRoutingModule,
     HttpClientModule,

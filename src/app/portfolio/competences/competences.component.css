@@ -11,7 +11,7 @@
   font-weight: 600;
   margin-bottom: 10px;
 }
-.skills .skills-content .left p{
+.skills .skills-content .left span{
   text-align: justify;
 }
 .skills .skills-content .left a{
@@ -73,7 +73,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f0f0f011;
+  background-color: #e9d6d693;
   font-size: 1.1rem;
 }
 .skill-box strong {
@@ -114,7 +114,7 @@
 .progress-line span{
 height: 100%;
 
-background: linear-gradient(90deg, #2788e2 20%, #3b43b8);
+background: crimson;
 position: absolute;
 border-radius: 10px;
 }
@@ -128,7 +128,7 @@ border-radius: 10px;
   border: 7px solid transparent;
   border-bottom-width: 0px;
   border-right-width: 0px;
-  border-top-color: rgb(20, 98, 243);
+  border-top-color: crimson;
 }
 .progress-line span::after {
   position: absolute;
@@ -137,11 +137,12 @@ border-radius: 10px;
   color: #fff;
   font-size: 12px;
   font-weight: 400;
-  background-color: rgb(20, 98, 243);
+  background-color: crimson;
   padding: 1px 8px;
   border-radius: 3px;
 }
 .progress-line span::after {
+   /* je recupere les values de % pour skill*/
   content: attr(data-open);
 }
 
