@@ -24,6 +24,7 @@ import { ToastrModule } from 'ngx-toastr';
 import { HttpClientModule } from '@angular/common/http';
 import { ContactService } from './shared/contact/contact.service';
 import { ReactiveFormsModule } from '@angular/forms';
+import { MyworkComponent } from './mywork/mywork.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     CompetencesComponent,
     ServicesComponent,
     IntroComponent,
+    MyworkComponent,
 
 
   ],
