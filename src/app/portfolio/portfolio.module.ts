@@ -1,3 +1,4 @@
+
 import { CompetencesComponent } from './competences/competences.component';
 import { FormationComponent } from './formation/formation.component';
 import { FooterComponent } from './footer/footer.component';
@@ -20,6 +21,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { ToastrModule } from 'ngx-toastr';
 
+import { HttpClientModule } from '@angular/common/http';
+import { ContactService } from './shared/contact/contact.service';
 
 @NgModule({
   declarations: [
@@ -41,10 +44,17 @@ import { ToastrModule } from 'ngx-toastr';
     FormsModule,
     NgxPaginationModule,
     PortfolioRoutingModule,
+    HttpClientModule,
     BrowserAnimationsModule, // required animations module
     ToastrModule.forRoot(), // ToastrModule added
 
   ],
 
+  providers:[
+    /*
+    un service gerer localement dans le module
+    */
+    ContactService
+  ]
 })
 export class PortfolioModule { }
