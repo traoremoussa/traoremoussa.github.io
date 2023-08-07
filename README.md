@@ -58,3 +58,7 @@ git push -u origin main
 
 /-----------
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
+
+
+##
+https://www.youtube.com/watch?v=0YFrGy_mzjY&t=11s
