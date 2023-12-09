@@ -1,4 +1,17 @@
 export const experiencesFr = [
+    {
+        title: "Software Developer",
+        company: 'Cat-amania',
+        period: "Depuis Avril 2023",
+        technologies: 'Spring/Angular, Java, Swing, Service(Rest,SOAP), Devops(Maven, Git/Gitlab, Jenkins), Oracle, Sql-Server, Tomcat, Hibernate, Jira, Junit, eclipse ',
+        missions: [
+            "AirFrance-KLM",
+            "Application pour la gestion de comptabilité",
+            "Conception, Maitenance, Evolution",
+            "Utilisation de la Methodologie Agile(Scrum)"
+        ],
+        detailIsDisplayed: false,
+    }
   {
       title: "Développeur Java",
       company: 'Berger-Levrault',
