@@ -4,10 +4,10 @@ export const experiencesFr = [
     company: 'Cat-amania',
     period: 'Depuis Avril 2023',
     technologies:
-      'Spring/Angular, Java, Swing, Service(Rest,SOAP), Devops(Maven, Git/Gitlab, Jenkins), Oracle, Sql-Server, Tomcat, Hibernate, Jira, Junit, eclipse ',
+      'Spring/Angular, Java, Eclipse Rcp, Swing, Service(Rest,SOAP), Devops(Maven, Git/Gitlab, Jenkins), Oracle, Sql-Server, Tomcat, Hibernate, Jira, Junit, eclipse ',
     missions: [
-      'AirFrance-KLM',
-      'Application pour la gestion de comptabilité',
+      'Mission AirFrance-KLM',
+      'Application de planning des PN',
       'Conception, Maitenance, Evolution',
       'Utilisation de la Methodologie Agile(Scrum)',
     ],
@@ -16,7 +16,7 @@ export const experiencesFr = [
   {
     title: 'Développeur Java',
     company: 'Berger-Levrault',
-    period: 'Depuis sept 2020',
+    period: 'Sept 2020 - Avril 2023',
     technologies:
       'Java, Swing, Service(Rest,SOAP), Devops(Maven, Git/Gitlab, Jenkins), Oracle, Sql-Server, Tomcat, Hibernate, Jira, Junit, eclipse ',
     missions: [
@@ -29,7 +29,7 @@ export const experiencesFr = [
   {
     title: 'Développeur Java/ Stage de 8 mois',
     company: 'Berger-Levrault',
-    period: 'nov 2019 - juin 2020',
+    period: 'Nov 2019 - Juin 2020',
     technologies:
       'JAVA 8, Web-service, Swing, Spring, Maven, Jenkins, TesLink, Jira, Junit, eclipse ',
     missions: [
@@ -42,7 +42,7 @@ export const experiencesFr = [
   {
     title: 'Développeur Full-Stack',
     company: 'Capgemini',
-    period: 'mai 2019 - août 2019',
+    period: 'Mai 2019 - Août 2019',
     technologies: 'Java, Python, SQL, PySpark, Spark-Sql,JavaScript, HTML, CSS',
     missions: [
       "Plate-forme Skywise est le programme Big Data & Analytics d'Airbus Group lancé en 2017",
