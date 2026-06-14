@@ -1,8 +1,22 @@
 export const experiencesFr = [
   {
     title: 'Software Developer',
+    company: 'SQLI',
+    period: 'Depuis Fev 2025',
+    technologies:
+      'Spring/Angular,Spring Batch, Java, Service Rest, Devops(Maven, Git/Gitlab, Jenkins), Oracle, Sql-Server, Tomcat, Hibernate, Jira, Junit, intelliJ',
+    missions: [
+      'Projet SDM RTE',
+      'développement de la plateforme SDM, outil centralisé d\'agtrégation et de reporting des données du marché de...',
+      'Conception, Maitenance, Evolution de la plateforme SDM',
+      'Utilisation de la Methodologie Agile(Scrum)',
+    ],
+    detailIsDisplayed: false,
+  },
+  {
+    title: 'Software Developer',
     company: 'Cat-amania',
-    period: 'Depuis Avril 2023',
+    period: ' Av 2023 - Fev 2025',
     technologies:
       'Spring/Angular, Java, Eclipse Rcp, Swing, Service(Rest,SOAP), Devops(Maven, Git/Gitlab, Jenkins), Oracle, Sql-Server, Tomcat, Hibernate, Jira, Junit, eclipse ',
     missions: [
