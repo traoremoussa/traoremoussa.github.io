@@ -7,7 +7,7 @@ export const experiencesFr = [
       'Spring/Angular, Spring Batch, Java, Service Rest, Devops(Maven, Git/Gitlab, Jenkins), Oracle, Sql-Server, Tomcat, Hibernate, Jira, Junit, intelliJ',
     missions: [
       'Projet SDM RTE',
-      'développement de la plateforme SDM, outil centralisé d\'agtrégation et de reporting des données du marché de...',
+      'développement de la plateforme SDM, outil centralisé d\'agrégation et de reporting des données du marché de...',
       'Conception, Maitenance, Evolution de la plateforme SDM',
       'Utilisation de la Methodologie Agile(Scrum)',
     ],
